@@ -182,7 +182,7 @@
 }
 
 .hero__titulo{   
-    color: whitesmoke ;
+    color: white ;
     font-size: 5rem;
     -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -251,3 +251,24 @@
 
 
 
+/*Slider Bar*/
+.bg__sliderbar{
+	background-color: black;
+}
+
+.title__sliderbar{
+	color: white;
+}
+
+.subtitle__sliderbar{
+	color: blac;
+
+}
+
+.hr__sliderbar{
+	border: 1px solid white;
+}
+
+.categorias__sliderbar{
+	color: white !important;
+}
