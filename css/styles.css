@@ -13,17 +13,17 @@
     font-size:30px;
 	box-shadow: 2px 2px 3px whitesmoke;
     z-index:100;
-    -webkit-animation: bounce-in-top 1.1s both;
+        -webkit-animation: bounce-in-top 1.1s both;
 	        animation: bounce-in-top 1.1s both;
 }
 .float:hover {
 	text-decoration: none;
 	color: whitesmoke;
-    background-color:black;
+        background-color:black;
 }
 
     /*Animacion de rebote*/
-@-webkit-keyframes bounce-in-top {
+    @-webkit-keyframes bounce-in-top {
     0% {
     -webkit-transform: translateY(-500px);
             transform: translateY(-500px);
@@ -74,8 +74,8 @@
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
     }
-}
-@keyframes bounce-in-top {
+    }
+    @keyframes bounce-in-top {
     0% {
     -webkit-transform: translateY(-500px);
             transform: translateY(-500px);
@@ -126,16 +126,16 @@
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
     }
-}
+    }
 
 
 /*HEADER NAV*/
 
 .header{
-    font-size: 1.2rem;
-    position: fixed;
-    z-index: 100;
-    width: 100%;
+        font-size: 1.2rem;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
 }
 
 
@@ -150,14 +150,27 @@
     transform: translate(1rem);
 }
 
+
+
 .contenedor__logo{
     margin-right: 1.5rem;
 }
 
+.options__click{
+    font-size: 1.3rem;
+    color: white !important;
+}
+
+.options__click:hover{
+    font-weight: bold;
+}
+
+
+
 /*HERO SECTION*/
 .hero__section{
     height: 100vh;
-    background-image: url("../assets/img/Jairo_4.jpg");
+    background-image: url("../assets/img/Jairo_1.jpg");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -165,7 +178,7 @@
     align-items: center;
     position: relative;
     overflow: hidden;
-    z-index: 2; /*Para ordenar div - suerponer uno por otro */
+    z-index: 1; /*Para ordenar div - suerponer uno por otro */
 }
 
 .hero__titulo{   
@@ -188,8 +201,8 @@
 }
 
 .hero__section{
-    -webkit-animation: bg-pan-top 60s both;
-            animation: bg-pan-top 60s both;
+    -webkit-animation: bg-pan-top 45s both;
+            animation: bg-pan-top 45s both;
 }
 
     /*Movimiento de fondo*/
@@ -235,7 +248,6 @@
     opacity: 1;
     }
 }
-
 
 
 
