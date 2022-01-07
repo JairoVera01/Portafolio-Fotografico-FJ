@@ -270,5 +270,29 @@
 }
 
 .categorias__sliderbar{
-	color: white !important;
+	color: white ;
+}
+
+
+.icon__sliderbar{
+        color: white;
+}
+
+.decoracion__text:hover{
+        text-decoration: underline  white;
+}
+
+
+
+/*Galeria*/
+.col-12 img {
+        opacity: 0.8;
+        cursor: pointer;
+        margin: 1rem;
+        width: 100%;
+}
+
+.col-12 img:hover {
+        opacity: 1;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
