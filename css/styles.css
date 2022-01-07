@@ -252,8 +252,11 @@
 
 
 /*Slider Bar*/
+
+
 .bg__sliderbar{
 	background-color: black;
+    
 }
 
 .title__sliderbar{
@@ -261,7 +264,7 @@
 }
 
 .subtitle__sliderbar{
-	color: blac;
+	color: white;
 
 }
 
@@ -285,6 +288,8 @@
 
 
 /*Galeria*/
+
+
 .col-12 img {
         opacity: 0.8;
         cursor: pointer;
@@ -296,3 +301,4 @@
         opacity: 1;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
